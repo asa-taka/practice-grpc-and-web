@@ -19,6 +19,7 @@ const Todo_Record$json = const {
     const {'1': 'status', '3': 6, '4': 1, '5': 14, '6': '.todo.Todo.Record.Status', '10': 'status'},
   ],
   '4': const [Todo_Record_Status$json],
+  '7': const {},
 };
 
 const Todo_Record_Status$json = const {
@@ -45,6 +46,7 @@ const Todo_GetRequest$json = const {
   '2': const [
     const {'1': 'id', '3': 1, '4': 1, '5': 5, '10': 'id'},
   ],
+  '7': const {},
 };
 
 const Todo_GetResponse$json = const {

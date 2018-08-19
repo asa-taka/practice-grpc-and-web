@@ -1,8 +1,8 @@
 {
   "swagger": "2.0",
   "info": {
-    "title": "todo.proto",
-    "version": "version not set"
+    "title": "practice-grpc-and-web",
+    "version": "0.0.1"
   },
   "schemes": [
     "http",
@@ -206,7 +206,16 @@
         "status": {
           "$ref": "#/definitions/RecordStatus"
         }
-      }
+      },
+      "title": "A Todo Record",
+      "required": [
+        "id",
+        "created_at",
+        "title",
+        "detail",
+        "deadline",
+        "status"
+      ]
     },
     "TodoRecordInput": {
       "type": "object",
